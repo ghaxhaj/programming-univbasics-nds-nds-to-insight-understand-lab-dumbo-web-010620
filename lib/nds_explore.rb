@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
 ss_movies= directors_database[0][:movies]
 index = 0
 
-while index <first_dir_movie.length do
+while index < sfirst_dir_movie.length do
   titles = ss_movies[index][:title}
     puts titles
     index += 1
